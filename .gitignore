@@ -1,0 +1,30 @@
+# Ignorar los directorios de compilación
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Archivos de configuración generados por CMake
+Makefile
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Archivos de configuración de Visual Studio Code
+.vscode/
+
+# Archivos generados por vcpkg
+/vcpkg/installed/
+
+# Archivos temporales y logs de compilación
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados de depuración
+/Debug/
